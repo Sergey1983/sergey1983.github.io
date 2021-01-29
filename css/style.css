@@ -327,8 +327,7 @@ header{
 }
 
 .services__item{
-	max-width: 30%;
-	/*max-width: 360px;*/
+	max-width: 31%;
 	min-height: 375px;
 	text-align: center;
 	padding: 30px 0px 80px;
@@ -438,18 +437,19 @@ header{
 }
 
 .form__box-left{
-	max-width: 260px;
-	width: 100%
+	/* max-width: 260px; */
+	width: 30%;
 }
 
 .form__box-right{
-	max-width: 555px;
-	width: 100%
+	/* max-width: 555px; */
+	width: 65%;
 }
 
 .form__box-inner label,
 .form__box-inner input,
-.form__box-inner textarea {
+.form__box-inner textarea,
+{
 	display: block;
 	width: 100%;
 	outline: none;
@@ -812,4 +812,21 @@ header{
 	padding: 8px 0;
 	letter-spacing: 0.5px;
 	text-align: center;
+}
+
+.fancybox-content input {
+	display: block;
+	width: 160px;
+	/* max-width: 100%; */
+	outline: none;
+	margin: 15px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	padding: 8px;
+	border: 2px solid #d3d2d2;
+}
+
+.fancybox-content input[type="submit"]{
+	background-color: #ffc222;
+	border: 2px solid #ffc222;
 }
