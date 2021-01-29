@@ -448,7 +448,7 @@ header{
 
 .form__box-inner label,
 .form__box-inner input,
-.form__box-inner textarea,
+.form__box-inner textarea
 {
 	display: block;
 	width: 100%;
